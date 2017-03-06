@@ -2186,3 +2186,11 @@
 	margin-bottom: auto;
 	margin-left: 3em;
 }
+
+.centered-gallery {
+	display: flex;
+}
+
+.personal-picture {
+	width: 40%
+}
