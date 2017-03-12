@@ -2103,7 +2103,7 @@
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
+		/*background: url("images/overlay.png"), url("../../images/one.jpg");*/
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2159,14 +2159,22 @@
 		}
 
 .devicon {
-	font-size: 60px;
+	font-size: 8em;
+	padding: 0.50em;
+
 }
 
 .devicon-cell {
-	height: 60px;
-	width: 60px;
-	padding: 10px;
+	/*height: 50%*/
+	/*width: 100%;*/
+	vertical-align: middle;
 	/*margin: 0px;*/
+}
+
+.skills-table {
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .education-imgs {
@@ -2192,5 +2200,5 @@
 }
 
 .personal-picture {
-	width: 40%
+	width: 55%;
 }

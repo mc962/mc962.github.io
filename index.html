@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+ <!DOCTYPE HTML>
 <!--
 	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
@@ -19,10 +19,10 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1>My Story</h1>
+				<h1>Michael Chilton</h1>
 				<nav>
 					<ul>
-						<li><a href="#intro">Intro</a></li>
+						<li><a href="#intro">Welcome</a></li>
 						<li><a href="#one">Skills</a></li>
 						<li><a href="#two">Who I Am</a></li>
 						<!-- <li><a href="#three">Education</li> -->
@@ -39,11 +39,6 @@
 						<h2>Michael Chilton</h2>
 					</header>
 					I'm a passionate developer with a strong desire to solve problems.
-					<!-- I'm a <strong>passionate</strong> software developer with a strong desire to <strong>solve problems</strong>. -->
-
-					<!-- <p>Welcome to <strong>Big Picture</strong> a responsive site template designed
-					by <a href="https://html5up.net">HTML5 UP</a>, built on <a href="http://skel.io">Skel</a>,
-					and released for free under the <a href="https://html5up.net/license">Creative Commons Attribution license</a>.</p> -->
 					<footer>
 						<a href="#one" class="button style2 down">More</a>
 					</footer>
@@ -51,12 +46,12 @@
 			</section>
 
 		<!-- One -->
-			<section id="one" class="main style2 right dark fullscreen">
-				<div class="content box style2">
+			<section id="one" class="main style3 primary fullscreen">
+				<div class="table-content">
 					<header>
 						<h2>Skills</h2>
 					</header>
-					<table>
+					<table class='skills-table'>
 						<tr>
 							<td class='devicon-cell'><i class="devicon-rails-plain-wordmark colored devicon"></i></td>
 							<td class='devicon-cell'><i class="devicon-react-original-wordmark colored devicon"></i></td>
@@ -72,13 +67,7 @@
 							<td class='devicon-cell'><i class="devicon-java-plain-wordmark colored devicon"></i></td>
 						</tr>
 					</table>
-					<!-- <ul>
-						<li>one</li>
-						<li>two</li>
-					</ul> -->
-					<!-- <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p> -->
+
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -92,8 +81,10 @@
 					<img src="./assets/css/images/michael_pic.jpg" alt="Michael Chilton" class='personal-picture'>
 					<p>
 						I'm a software developer with experience in Ruby on Rails, ReactJS, and JavaScript.
-						I love problem-solving, writing clean code, and tracking down elusive bugs.
-				</p>
+						Whether I am tracking down elusive bugs or writing clean, modular code, I enjoy programming because
+            every aspect of building tools and features feels as if it has an applicable purpose. I love being in a team environment
+            where every day is a new learning experience.
+				  </p>
 				<a href="./assets/MichaelChiltonResume.pdf">Resume</a> | <a href="mailto:mchilton963@gmail.com">Email</a>
 				</div>
 				<a href="#education" class="button style2 down anchored">Next</a>
@@ -107,8 +98,19 @@
 						<h2>Education</h2>
 					</header>
 					<ul>
-						<li class="education-item"><img class="education-imgs" src='./assets/css/images/appacademylogo.png' alt='a/A'><div class='school-name'><strong>App Academy</strong><div class="school-experience">Web Development Bootcamp</div></div></li>
-						<li class="education-item"><img class="education-imgs" src='./assets/css/images/uvm-logo.png' alt='UVM'><div class='school-name'><strong>University of Vermont</strong><div class="school-experience">B.S. Microbiology</div></div></li>
+						<li class="education-item">
+							<img class="education-imgs" src='./assets/css/images/appacademylogo.png' alt='a/A'>
+							<div class='school-name'><strong>App Academy</strong>
+								<div class="school-experience">Web Development Bootcamp</div>
+								<p class="school-description">12 Week Full-stack course with &lt3% acceptance</p>
+						  </div>
+						</li>
+						<li class="education-item">
+							<img class="education-imgs" src='./assets/css/images/uvm-logo.png' alt='UVM'>
+							<div class='school-name'><strong>University of Vermont</strong>
+								<div class="school-experience">B.S. Microbiology</div>
+							</div>
+						</li>
 					</ul>
 				</div>
 				<a href="#work" class="button style2 down anchored">Next</a>
@@ -129,7 +131,7 @@
 						</tr>
 						<tr>
 							<td>Hayai</td>
-							<td>A lightweight Model-View-Controller built in Ruby.</td>
+							<td>A lightweight View-Controller framework built in Ruby.</td>
 							<td><a href="#">Live</a> | <a href="https://github.com/mc962/hayai">Repo</a></td>
 						</tr>
 						<tr>
@@ -138,29 +140,18 @@
 							<td><a href="https://mc962.github.io/conways">Live</a> | <a href="https://github.com/mc962/conways">Repo</a></td>
 						</tr>
 					</table>
-					<!-- <ul>
-						<li>
-							<strong>Yack</strong>-<a href="http://slacking-yack.com/">Live</a> | <a href="https://github.com/mc962/yack">Repo</a>
-						</li>
-						<li>
-							<strong>Hayai</strong>-<a href="#">Live</a> | <a href="https://github.com/mc962/hayai">Repo</a>
-						</li>
-						<li>
-							<strong>Primordial Soup</strong>-<a href="#">Live</a> | <a href="https://github.com/mc962/conways">Repo</a>
-						</li>
-					</ul> -->
 					<!-- Gallery  -->
 						<div class="gallery">
 							<div class="centered-gallery">
 
 								<article class="from-left">
-									<a href="images/fulls/mainscreen.png" class="image fit"><img src="images/thumbs/04.jpg" title="Yack" alt="Chat app" /></a>
+									<a href="images/fulls/yack-shot.png" class="image fit"><img src="images/thumbs/yack-shot.png" title="Yack" alt="Chat app" /></a>
 								</article>
 								<article class="from-right">
 									<a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" title="Hayai" alt="MVC Framework" /></a>
 								</article>
 								<article class="from-left">
-									<a href="images/fulls/soup.png" class="image fit"><img src="images/thumbs/04.jpg" title="Primordial Soup" alt="JavaScript Game" /></a>
+									<a href="images/fulls/soup-shot.png" class="image fit"><img src="images/thumbs/soup-shot.png" title="Primordial Soup" alt="JavaScript Game" /></a>
 								</article>
 							</div>
 							<!-- <article class="from-right">
@@ -203,10 +194,11 @@
 
 				<!-- Icons -->
 					<ul class="actions" id="bottom-contact">
-						<li><a href="https://github.com/mc962" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.linkedin.com/in/michaelchilton1" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:mchilton963@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-
+						<li><a href="https://github.com/mc962" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/michaelchilton1" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="mailto:mchilton963@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+						<li><a href="./assets/MichaelChiltonResume.pdf" class="icon fa-file-text" target="_blank"><span class="label">Resume</span></a></li>
+						<li><a href="https://angel.co/michael-chilton-1" class="icon fa-angellist" target="_blank"><span class="label">AngelList</span></a></li>
 					</ul>
 
 				<!-- Menu -->
