@@ -2107,6 +2107,8 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+		/*Modification*/
+		padding-top: 4.0em;
 	}
 
 /* Two */
@@ -2159,20 +2161,21 @@
 		}
 
 .devicon {
-	font-size: 8em;
-	padding: 0.50em;
+	font-size: 6em;
 
 }
 
 .devicon-cell {
+	padding: 1em;
 	/*height: 50%*/
 	/*width: 100%;*/
 	vertical-align: middle;
+
 	/*margin: 0px;*/
 }
 
 .skills-table {
-	height: 80%;
+	/*height: 100%%;*/
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -2201,4 +2204,26 @@
 
 .personal-picture {
 	width: 55%;
+}
+
+.skills-header {
+	left: 50%;
+	margin-bottom: 1%;
+
+}
+
+.table-content {
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.resume-header {
+	text-decoration: none;
+	color: #39454B;
+	cursor: pointer;
+}
+
+.resume-header h1 {
+	cursor: pointer;
 }
